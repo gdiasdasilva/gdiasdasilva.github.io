@@ -136,6 +136,12 @@ img.last-item {
     margin: 0 auto;
 }
 
+@media (max-width: 900px) {
+  .description {
+    width: 80%;
+  }
+}
+
 
 /* ==========================================================================
    Helper classes
