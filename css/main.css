@@ -15,6 +15,16 @@ body {
     max-width: 670px;
 }
 
+@media (max-width: 600px) {
+    body {
+        padding-top: 20px;
+    }
+
+    .container {
+        width: 100%;
+    }
+}
+
 .photo img {
     width: 180px;
     border-radius: 50px;
