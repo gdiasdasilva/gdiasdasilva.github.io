@@ -4,7 +4,6 @@ html, body {
 }
 
 body {
-    text-align: center;
     font-family: 'Courier New', Courier, monospace;
     background-color: #1F2430;
     color: #CBCCC6;
@@ -58,6 +57,10 @@ strong {
 
 .logos a:last-child svg {
     margin-right: 0;
+}
+
+.logos svg:hover {
+    fill: #5CCFE6;
 }
 
 .description, .photo {
