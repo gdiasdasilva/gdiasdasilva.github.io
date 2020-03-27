@@ -5,9 +5,9 @@ html, body {
 
 body {
     text-align: center;
-    font-family: -apple-system, BlinkMac
-        SystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
-        'Helvetica Neue', sans-serif;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #1F2430;
+    color: #CBCCC6;
 }
 
 .centered-container {
@@ -24,33 +24,43 @@ body {
 }
 
 .photo img {
-    width: 200px;
+    width: 250px;
     border-radius: 30px;
 }
 
 h1 {
-    font-size: 28px;
+    font-size: 36px;
+    margin-bottom: 10px;
 }
 
 h2 {
-    font-size: 20px;
+    font-size: 24px;
+    margin-top: 0;
+}
+
+p {
+    font-weight: lighter;
+}
+
+strong {
+    color: #FFCC66;
 }
 
 .description {
-    width: 90%;
     margin: 0 auto;
 }
 
-.logos img {
-    margin-right: 20px;
+.logos svg {
+    margin-right: 30px;
     width: 50px;
+    fill: white;
 }
 
-.logos a:last-child img {
+.logos a:last-child svg {
     margin-right: 0;
 }
 
-.description, .function, .photo {
+.description, .photo {
     margin-bottom: 30px;
 }
 
