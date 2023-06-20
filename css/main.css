@@ -4,9 +4,10 @@ html, body {
 }
 
 body {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: sans-serif;
     background-color: #1F2430;
     color: #CBCCC6;
+    letter-spacing: 1px;
 }
 
 .centered-container {
@@ -23,7 +24,7 @@ body {
 }
 
 .photo img {
-    width: 250px;
+    width: 200px;
     border-radius: 30px;
 }
 
